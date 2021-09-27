@@ -8,5 +8,4 @@ export const theme = extendTheme({
       tatiary: '#FDD2BF',
     },
   },
-
 });

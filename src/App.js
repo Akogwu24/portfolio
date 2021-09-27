@@ -1,12 +1,15 @@
-import { Text } from '@chakra-ui/layout';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
+import Header from './components/header';
+import Portfolio from './components/portfolio';
 
 function App() {
   return (
-    <div className='App'>
-      <Text bg='myColor.tatiary' fontFamily='Satisfy'>
-        sssxycuvyiub
-      </Text>
+    <div>
+      <BrowserRouter>
+        <Header />
+        <Portfolio />
+      </BrowserRouter>
     </div>
   );
 }

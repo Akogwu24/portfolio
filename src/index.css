@@ -1,1 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Explora&family=Patrick+Hand&family=Roboto:ital,wght@0,100;0,300;0,700;1,400&family=Satisfy&display=swap');
+
+/* font-family: 'Courgette', cursive;
+font-family: 'Explora', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Satisfy', cursive; */
+
+.hero {
+  -webkit-filter: sepia(60%);
+  filter: sepia(60%);
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.my-name {
+  color: rgb(221, 148, 148);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
