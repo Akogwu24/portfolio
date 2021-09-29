@@ -67,9 +67,9 @@ const index = () => {
           </HStack>
         </Flex>
       </ContentWrapper>
-      <div>
+      <Box>
         <Image src={wave} alt='wave' />
-      </div>
+      </Box>
     </Box>
   );
 };
