@@ -13,7 +13,7 @@ const index = () => {
           <Text>About me</Text>
         </Box>
         <HStack bg='telegram.300'>
-          <Flex flex='1' bg='red'>
+          <Flex flex='1' p={2}>
             <Sidebar />
           </Flex>
           <Box flex='3'>
