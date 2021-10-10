@@ -1,16 +1,16 @@
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
-import Header from './components/header';
-import Portfolio from './components/portfolio';
+import Education from './components/portfolio/components/tabs/Education';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <div>
-      <BrowserRouter>
-        <Header />
-        <Portfolio />
-      </BrowserRouter>
-    </div>
+    <BrowserRouter basename='home'>
+      <Switch>
+        <Route path='/' exact component={Home} />
+        {/* <Route path='/education' exact component={Education} /> */}
+      </Switch>
+    </BrowserRouter>
   );
 }
 

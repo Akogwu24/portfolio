@@ -8,21 +8,25 @@ const sidebarNav = [
     id: 1,
     title: 'Projects',
     icon: <MdWork />,
+    link: 'projects',
   },
   {
     id: 2,
-    title: 'Stacks',
+    title: 'Tech Stacks',
     icon: <FaLaptopCode />,
+    link: 'stacks',
   },
   {
     id: 3,
     title: "When I'm not Coding",
     icon: <GiAmericanFootballPlayer />,
+    link: 'hobbies',
   },
   {
     id: 4,
     title: 'Education',
     icon: <MdSchool />,
+    link: 'education',
   },
 ];
 export default sidebarNav;

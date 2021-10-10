@@ -9,7 +9,6 @@ export default ContentWrapper;
 
 const Wrapper = styled.div`
   height: 100%;
-
   @media (min-width: 540px) {
     max-width: 98vw;
     margin: 0 auto;
@@ -21,7 +20,7 @@ const Wrapper = styled.div`
   }
 
   @media (min-width: 1120px) {
-    max-width: 75vw;
+    max-width: 72vw;
     margin: 0 auto;
   }
 `;

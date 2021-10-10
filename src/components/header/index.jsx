@@ -67,7 +67,7 @@ const index = () => {
           </HStack>
         </Flex>
       </ContentWrapper>
-      <Box>
+      <Box pointerEvents='none'>
         <Image src={wave} alt='wave' />
       </Box>
     </Box>
