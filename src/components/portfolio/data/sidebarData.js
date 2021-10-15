@@ -12,21 +12,21 @@ const sidebarNav = [
   },
   {
     id: 2,
-    title: 'Tech Stacks',
+    title: 'Tool Box',
     icon: <FaLaptopCode />,
     link: 'stacks',
-  },
-  {
-    id: 3,
-    title: "When I'm not Coding",
-    icon: <GiAmericanFootballPlayer />,
-    link: 'hobbies',
   },
   {
     id: 4,
     title: 'Education',
     icon: <MdSchool />,
     link: 'education',
+  },
+  {
+    id: 3,
+    title: "When I'm not Coding",
+    icon: <GiAmericanFootballPlayer />,
+    link: 'hobbies',
   },
 ];
 export default sidebarNav;

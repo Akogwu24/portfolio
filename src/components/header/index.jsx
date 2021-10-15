@@ -49,7 +49,6 @@ const index = () => {
                 bg='#000'
                 pos='absolute'
                 opacity='0.1'
-                // zIndex={2}
                 borderRadius='50%'
                 pointerEvents='none'
               ></Box>

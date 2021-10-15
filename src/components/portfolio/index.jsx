@@ -1,10 +1,7 @@
-import { Box, Flex, Heading, HStack, Text } from '@chakra-ui/layout';
+import { Box, HStack, Text } from '@chakra-ui/layout';
 import { Tab, TabList, TabPanel, TabPanels, Tabs } from '@chakra-ui/tabs';
 import React from 'react';
-import { MdWork } from 'react-icons/md';
 import ContentWrapper from '../common/Wrapper';
-import Content from './components/Content';
-import Sidebar from './components/Sidebar';
 import Education from './components/tabs/Education';
 import Hobby from './components/tabs/Hobby';
 import Projects from './components/tabs/Projects';
@@ -29,10 +26,12 @@ const index = () => {
                 <Tab
                   key={index}
                   my={5}
+                  fontFamily='Courgette'
+                  bg='gray.100'
                   className='tab'
                   _selected={{
-                    color: 'rgba(250, 250, 250, 1)',
-                    bg: 'rgba(25, 24, 97)',
+                    color: 'rgba(0, 0, 0, 0.8)',
+                    bg: 'gray.300',
                   }}
                   _focus={{ border: 'none' }}
                 >
@@ -48,13 +47,13 @@ const index = () => {
 
             <TabPanels flex={7.7}>
               <TabPanel>
-                <Education />
-              </TabPanel>
-              <TabPanel>
                 <Projects />
               </TabPanel>
               <TabPanel>
                 <TechStatcks />
+              </TabPanel>
+              <TabPanel>
+                <Education />
               </TabPanel>
               <TabPanel>
                 <Hobby />

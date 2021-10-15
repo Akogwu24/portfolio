@@ -1,10 +1,13 @@
 import React from 'react';
-import { Box } from '@chakra-ui/layout';
+import { Box, Divider, Heading } from '@chakra-ui/layout';
 
 const Projects = () => {
   return (
-    <Box mt={2} bg='red'>
-      <Box fontSize='2rem'>projects</Box>;
+    <Box>
+      <Heading fontFamily='Patrick Hand' textAlign='center'>
+        Projects
+      </Heading>
+      <Divider />
     </Box>
   );
 };

@@ -1,8 +1,14 @@
-import { Box } from '@chakra-ui/layout';
+import { Box, Heading } from '@chakra-ui/layout';
 import React from 'react';
 
 function Education() {
-  return <Box fontSize='2rem'>Education</Box>;
+  return (
+    <Box>
+      <Heading fontFamily='Patrick Hand' textAlign='center'>
+        Education
+      </Heading>
+    </Box>
+  );
 }
 
 export default Education;
