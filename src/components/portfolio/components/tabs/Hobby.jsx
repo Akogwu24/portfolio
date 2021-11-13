@@ -1,4 +1,4 @@
-import { Box, Heading } from '@chakra-ui/layout';
+import { Box, Heading, Divider } from '@chakra-ui/layout';
 import React from 'react';
 
 const Hobby = () => {
@@ -7,6 +7,7 @@ const Hobby = () => {
       <Heading fontFamily='Patrick Hand' textAlign='center'>
         Hobbies
       </Heading>
+      <Divider />
     </Box>
   );
 };

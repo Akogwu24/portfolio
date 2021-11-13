@@ -8,4 +8,8 @@
 
 #### use glassmorphimsim cars to display projects
 
+#### section for articles
+
+### values: always learning, passion is everything
+
 inspect the element in dev tools on site to get a pick into how it was done.

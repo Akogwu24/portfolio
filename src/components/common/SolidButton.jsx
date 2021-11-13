@@ -1,13 +1,13 @@
 import { Button } from '@chakra-ui/button';
 import React from 'react';
 
-const SolidButton = ({ children, ...props }) => {
+const SolidButton = ({ size, w, children, ...props }) => {
   return (
     <Button
       _focus={{ border: 'none' }}
       variant='solid'
-      size='sm'
-      w='120px'
+      size={size || 'sm'}
+      w={w || '120px'}
       {...props}
     >
       {children}

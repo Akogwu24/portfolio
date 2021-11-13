@@ -5,39 +5,42 @@ import ContentWrapper from '../common/Wrapper';
 import Education from './components/tabs/Education';
 import Hobby from './components/tabs/Hobby';
 import Projects from './components/tabs/Projects';
-import TechStatcks from './components/tabs/TechStatcks';
+import ToolBox from './components/tabs/ToolBox';
 import sidebarNav from './data/sidebarData';
 
 const index = () => {
   return (
-    <Box bg='gray.50' py={64}>
+    <Box bg='gray.50' pb={32} pt={64}>
       <ContentWrapper>
         <Box>
           <Tabs variant='unstyled' bg='gray.100' shadow='xl' display='flex'>
             <TabList
-              flex={2.3}
-              py={5}
+              flex={2.5}
+              pb={10}
+              pt={20}
               borderRadius='2px'
               display='flex'
               shadow='5px 0px 6px 1px rgba(0,0,0,0.2)'
               flexDirection='column'
+              minW='250px'
             >
               {sidebarNav.map((nav, index) => (
                 <Tab
                   key={index}
-                  my={5}
+                  my={6}
+                  mx={3}
                   fontFamily='Courgette'
                   bg='gray.100'
                   className='tab'
                   _selected={{
-                    color: 'rgba(0, 0, 0, 0.8)',
-                    bg: 'gray.300',
+                    boxShadow:
+                      'inset 5px 5px 10px 0 rgba(0, 0, 0, 0.2), inset -8px -8px 16px 0 rgba(255, 255, 255, 0.4)',
                   }}
                   _focus={{ border: 'none' }}
                 >
                   <HStack w='100%'>
                     <Box>{nav.icon}</Box>
-                    <Text pl={2} textAlign='left' flex={1}>
+                    <Text fontSize='17px' pl={2} textAlign='left' flex={1}>
                       {nav.title}
                     </Text>
                   </HStack>
@@ -45,12 +48,12 @@ const index = () => {
               ))}
             </TabList>
 
-            <TabPanels flex={7.7}>
+            <TabPanels flex={7.5}>
               <TabPanel>
                 <Projects />
               </TabPanel>
               <TabPanel>
-                <TechStatcks />
+                <ToolBox />
               </TabPanel>
               <TabPanel>
                 <Education />
