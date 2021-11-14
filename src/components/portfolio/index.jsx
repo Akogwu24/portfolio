@@ -2,11 +2,11 @@ import { Box, HStack, Text } from '@chakra-ui/layout';
 import { Tab, TabList, TabPanel, TabPanels, Tabs } from '@chakra-ui/tabs';
 import React from 'react';
 import ContentWrapper from '../common/Wrapper';
-import Education from './components/tabs/Education';
-import Hobby from './components/tabs/Hobby';
-import Projects from './components/tabs/Projects';
-import ToolBox from './components/tabs/ToolBox';
+import Hobby from './components/hobbies/Hobbies';
+import Projects from './components/projects/Projects';
+import ToolBox from './components/toolbox/ToolBox';
 import sidebarNav from './data/sidebarData';
+import Milestones from './components/milestones/Milestone';
 
 const index = () => {
   return (
@@ -56,7 +56,7 @@ const index = () => {
                 <ToolBox />
               </TabPanel>
               <TabPanel>
-                <Education />
+                <Milestones />
               </TabPanel>
               <TabPanel>
                 <Hobby />

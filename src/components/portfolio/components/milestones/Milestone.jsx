@@ -1,15 +1,14 @@
-import { Box, Heading, Divider } from '@chakra-ui/layout';
+import { Box, Heading } from '@chakra-ui/layout';
 import React from 'react';
 
-const Hobby = () => {
+function Milestones() {
   return (
     <Box>
       <Heading fontFamily='Patrick Hand' textAlign='center'>
-        Hobbies
+        Achievement
       </Heading>
-      <Divider />
     </Box>
   );
-};
+}
 
-export default Hobby;
+export default Milestones;

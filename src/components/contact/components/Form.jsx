@@ -6,6 +6,7 @@ import React from 'react';
 import contactImage from '../../../assets/contact.jpg';
 import SolidButton from '../../common/SolidButton';
 import FormInput from './FormInput';
+import { FiSend } from 'react-icons/fi';
 
 const Form = () => {
   const handleSend = () => {
@@ -30,6 +31,8 @@ const Form = () => {
           color='#fff'
           w={['100%', '100%', '200px']}
           bg='myColor.secondary'
+          leftIcon={<FiSend />}
+          _hover={{opacity: '0.6'}}
         >
           Send Message
         </SolidButton>

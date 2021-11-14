@@ -1,6 +1,5 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
-import Education from './components/portfolio/components/tabs/Education';
 import Home from './pages/Home';
 
 function App() {

@@ -2,31 +2,60 @@ import { MdWork } from 'react-icons/md';
 import { FaLaptopCode } from 'react-icons/fa';
 import { GiAmericanFootballPlayer } from 'react-icons/gi';
 import { MdSchool } from 'react-icons/md';
+import contact from '../../../assets/contact.jpg';
+import swimmer from '../../../assets/swimmer.jpg';
+import footballer from '../../../assets/football.jpg';
 
 const sidebarNav = [
   {
     id: 1,
     title: 'Projects',
     icon: <MdWork />,
-    link: 'projects',
   },
   {
     id: 2,
     title: 'Tool Box',
     icon: <FaLaptopCode />,
-    link: 'stacks',
   },
   {
     id: 4,
-    title: 'Education',
+    title: 'Milestones',
     icon: <MdSchool />,
-    link: 'education',
   },
   {
     id: 3,
     title: "When I'm not Coding",
     icon: <GiAmericanFootballPlayer />,
-    link: 'hobbies',
   },
 ];
 export default sidebarNav;
+
+export const hobbies = [
+  {
+    hobby: 'Coding',
+  },
+  {
+    hobby: 'Swimming',
+  },
+  {
+    hobby: 'Research',
+  },
+  {
+    hobby: 'Music/ Playing Guitar',
+  },
+  {
+    hobby: 'Football',
+  },
+];
+
+export const hobbiesImages = [
+  {
+    image: contact,
+  },
+  {
+    image: swimmer,
+  },
+  {
+    image: footballer,
+  },
+];
