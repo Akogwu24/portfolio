@@ -27,6 +27,7 @@ const Hobbies = () => {
         <UnorderedList spacing={3}>
           {hobbies.map((hobby) => (
             <ListItem
+              key={hobby.hobby}
               fontSize='18px'
               fontWeight='600'
               letterSpacing='1px'

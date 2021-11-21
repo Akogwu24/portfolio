@@ -12,10 +12,10 @@ const Contact = () => {
         <Stack spacing={10}>
           <HStack justify='space-between'>
             {channels.map((channel) => (
-              <VStack>
-                <Tooltip placement='auto-start'o label={channel.meaning}>
+              <VStack key={channel.title}>
+                <Tooltip placement='auto-start' o label={channel.meaning}>
                   <Circle
-                    bordesRadius='50%'
+                    borderRadius='50%'
                     bg='blue.50'
                     p={4}
                     border='1px solid #00000020'

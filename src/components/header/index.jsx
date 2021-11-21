@@ -1,13 +1,24 @@
 import { Box, Flex, HStack, Text, VStack } from '@chakra-ui/layout';
-import React from 'react';
+import React, { useState } from 'react';
 import ContentWrapper from '../common/Wrapper';
 import Navbar from './components/Navbar';
 import twitter from '../../assets/twitter.png';
 import SolidButton from '../common/SolidButton';
 import { Image } from '@chakra-ui/image';
 import wave from '../../assets/wave3.svg';
+import { titles } from './components/titles ';
 
-const index = () => {
+const Header = () => {
+  const [index, setIndex] = useState(2);
+  const title = titles[index];
+  const letter = 0;
+  // setInterval(() => {
+  //   index === titles.length - 1 ? setIndex(0) : setIndex((index) => index + 1);
+  //   return () => clearInterval();
+  // }, 3000);
+
+  console.log('wcwvdd', title.length);
+
   return (
     <Box
       className='hero'
@@ -28,7 +39,7 @@ const index = () => {
                 <img width='20px' src={twitter} alt='twitter' />
               </HStack>
               <Text>
-                Hi, I am <span className='my-name'>Emmanuel</span>
+                Hi, I am <span className='my-name'>{title}</span>
               </Text>
               <Text>A Front End Developer With a Knack for building </Text>
               <Text>Excellent Client side Applications</Text>
@@ -73,4 +84,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Header;

@@ -1,0 +1,8 @@
+export const titles = [
+  'AKOGWU',
+  'EMMANUEL',
+  'FRONT END DEVELOPER',
+  'MOBILE DVELOPER',
+  'SOFTWARE DEVELOPER',
+  'PROBLEM SOLVER',
+];

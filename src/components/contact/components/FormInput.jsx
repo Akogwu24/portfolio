@@ -15,7 +15,7 @@ const FormInput = ({ type, label, value, placeholder, setValue }) => {
         borderBottom='1px solid #BDBDBD'
         mb='20px'
         value={value}
-        setValue={(e) => setValue(e.target.value)}
+        onChange={(e) => setValue(e.target.value)}
         type={type || 'text'}
         placeholder={placeholder}
       />

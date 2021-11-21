@@ -26,7 +26,7 @@ const index = () => {
             >
               {sidebarNav.map((nav, index) => (
                 <Tab
-                  key={index}
+                  key={nav.title}
                   my={6}
                   mx={3}
                   fontFamily='Courgette'

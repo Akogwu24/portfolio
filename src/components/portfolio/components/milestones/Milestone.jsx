@@ -5,7 +5,7 @@ function Milestones() {
   return (
     <Box>
       <Heading fontFamily='Patrick Hand' textAlign='center'>
-        Achievement
+        Achievements
       </Heading>
     </Box>
   );
