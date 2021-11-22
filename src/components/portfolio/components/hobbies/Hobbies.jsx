@@ -7,7 +7,6 @@ import {
   ListItem,
   ListIcon,
   Flex,
-  Stack,
 } from '@chakra-ui/layout';
 import { BsBullseye } from 'react-icons/bs';
 import { hobbies } from '../../data/sidebarData';
