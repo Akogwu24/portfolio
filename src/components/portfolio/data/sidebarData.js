@@ -32,10 +32,13 @@ export default sidebarNav;
 
 export const hobbies = [
   {
-    hobby: 'Coding',
+    hobby: 'Beach Cleaning',
   },
   {
     hobby: 'Swimming',
+  },
+  {
+    hobby: 'Trash Recycling',
   },
   {
     hobby: 'Research',

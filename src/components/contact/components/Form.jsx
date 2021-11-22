@@ -51,6 +51,7 @@ const Form = () => {
           onChange={(e) => setMessage(e.target.value)}
           _focus={{ bg: '#EEEDE7' }}
           my={4}
+          mb={8}
           rows={3}
           resize='none'
           placeholder='enter your message here'
@@ -59,7 +60,7 @@ const Form = () => {
           onClick={handleSend}
           size='md'
           color='#fff'
-          w={['100%', '100%', '200px']}
+          w={['100%', '100%', '220px']}
           bg='myColor.secondary'
           leftIcon={<FiSend />}
           _hover={{ opacity: '0.6' }}

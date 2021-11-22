@@ -40,7 +40,6 @@ const Hobbies = () => {
         </UnorderedList>
         <Divider
           opacity='0.7'
-          // bg='myColor.primary'
           bgColor='rgba(7, 48, 18, 0.8)'
           w='2px'
           h='350px'
